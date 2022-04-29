@@ -39,6 +39,10 @@ namespace DemoAppZhdan.View
             CBFilter.ItemsSource = filterList;
 
             sortList.Add("Сортировка");
+            sortList.Add("По возрастанию");
+            sortList.Add("По убыванию");
+            CBSort.SelectedIndex = 0;
+            CBSort.ItemsSource = sortList;
 
         }
     }
